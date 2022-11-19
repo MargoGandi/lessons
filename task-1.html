@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="windows-1250"/>
+</head>
+<body>
+<main class="content">
+  <aside class="left">
+    <p>Левый сайдбар</p>
+  </aside>
+
+</main>
+<aside class="right">
+  Левый сайдбар
+</aside>
+
+</body>
+
+
+<style>
+  .right {
+    width: 20%;
+    height: 100%;
+    background-color: #4A5073;
+  }
+
+  .left {
+    width: 20%;
+    height: 100%;
+    background-color: #4A5073;
+  }
+
+  .content {
+    width: calc(100% - 100px);
+    margin: 50px;
+    height: calc(100vh - 100px);
+    background-color: #DBE2EE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  p {
+    text-align: center;
+    color: #fff;
+  }
+</style>
