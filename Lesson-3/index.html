@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home_Work-3</title>
+</head>
+
+<body>
+
+    <h2><strong>Форма заявки на работу в зоопарке</strong></h2>
+        <p><em>Пожалуйста, заполните форму. Обязательные поля помечены
+                <sup><font color="red">*</font></sup>
+            </em></p>
+    <form action="formHandler.php" name="job application form">
+        <fieldset>
+            <legend>Контактная информация</legend>
+            <span> Имя  <sup><font color="red">*</font></sup> </span>
+            <input type="text" required>
+            <br>
+            <span>Телефон</span>
+            <input type="tel">
+            <br>             
+            <span>Email <sup><font color="red">*</font></sup> </span>
+            <input type="email" required>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Персональная информация</legend>
+            <span>Возраст <sup><font color="red">*</font></sup> </span>
+            <input type="number" required>
+            <br>
+            <span>Пол</span>
+            <select>
+                <option value="Woman">Женский</option>
+                <option value="Man">Мужчина</option>
+            </select>
+            <br>
+            <span><p class="word"> Перечислите личные качества</p></span>
+            <textarea rows="10" cols="45"></textarea>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Выберите ваших любимых животных</legend>
+            <span>Зебра</span>
+            <input type="checkbox">
+            <span>Кошак</span>
+            <input type="checkbox">            
+            <span>Анаконда</span>
+            <input type="checkbox">
+            <span>Человек</span>
+            <input type="checkbox">
+            <br>
+            <span>Слон</span>
+            <input type="checkbox">
+            <span>Антилопа</span>
+            <input type="checkbox">
+            <span>Голубь</span>
+            <input type="checkbox">
+            <span>Краб</span>
+            <input type="checkbox">
+            <br>
+        </fieldset>
+        <input type="submit" value="Отправить информацию">
+        <br>
+    </form>
+
+
+</body>
+
+</html>
