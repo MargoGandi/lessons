@@ -1,19 +1,17 @@
 /* style general
 ----------------*/
-
 * {
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
-    }
+}
 
 h2 {
     font-size: 28px;
     line-height: 42px;
     font-weight: 400;
     position: relative;
-
 }
 
 h2::after {
@@ -24,7 +22,6 @@ h2::after {
     background-image: url(../.img/icon.png);
     position: absolute;
     top: 5px;
-
 }
 
 p.title {
@@ -33,13 +30,10 @@ p.title {
     font-weight: 400;
 }
 
-
 .block {
-    display: flex;
-    flex-direction: row;
+    display: flex;    
     justify-content: space-between;
 }
-
 
 .block-1 {
     padding: 30px 50px 0 0;
@@ -104,4 +98,3 @@ span.str-4::before {
 p.str {
     padding: 10px 0 28px 0;
 }
-
