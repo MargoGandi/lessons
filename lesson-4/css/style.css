@@ -43,56 +43,39 @@ p.title {
     padding: 30px 0 0 10px;
 }
 
-div.block-2>span {    
-    display: inline-block;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 600;
-    position: relative;
-}
 
-span.str-1::before {
+.str-1::before {
     content: "";
     width: 50px;
     height: 50px;
     display: inline-block;
     background-image: url(../img/icon1.png);
-    position: absolute;
-    top: 5px;
-    left: -65px;
 }
 
-span.str-2::before {
+.str-2::before {
     content: "";
     width: 50px;
     height: 50px;
     display: inline-block;
     background-image: url(../img/icon2.png);
-    position: absolute;
-    top: 5px;
-    left: -65px;
 }
 
-span.str-3::before {
+.str-3::before {
     content: "";
     width: 50px;
     height: 50px;
     display: inline-block;
     background-image: url(../img/icon3.png);
-    position: absolute;
-    top: 5px;
-    left: -65px;
+
 }
 
-span.str-4::before {
+.str-4::before {
     content: "";
     width: 50px;
     height: 50px;
     display: inline-block;
     background-image: url(../img/icon4.png);
-    position: absolute;
-    top: 5px;
-    left: -65px;
+
 }
 
 p.str {
