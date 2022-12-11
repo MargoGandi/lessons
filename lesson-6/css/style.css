@@ -1,0 +1,113 @@
+/* style general
+----------------*/
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf) format(truetype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.block {
+    width: 1280px;
+    height: 668px;
+    background: #F2F8F6;
+}
+
+.cube-1 {
+    width: 446.67px;
+    height: 437.32px;
+    border-radius: 2px;
+    background-color: #FFFFFF;    
+    top: 67.28px;
+    left: 160px;
+    position: relative;
+}
+
+.cube-2 {
+    width: 446.67px;
+    height: 437.32px;
+    border-radius: 2px;
+    top: 115.34px;
+    left: 193.33px;
+    position: absolute;
+    box-sizing: border-box;
+    border: 20px solid #3D8455;
+}
+
+.flower {
+    width: 222.67px;
+    height: 576.69px;   
+    top: 30.76px;
+    left: 305.33px;
+    position: absolute;
+}
+
+.text-1 {
+    width: 411px;
+    height: 57px;    
+    top: 115px;
+    left: 680px;
+    position: absolute;    
+}
+
+.str-1 {
+   font: 500 50px/58.59px "Roboto", sans-serif; 
+}
+
+.text-2 {
+    width: 550px;
+    height: 230px;    
+    top: 191px;
+    left: 682px;
+    position: absolute;   
+}
+
+.str-2 {
+    font: 400 20px/28px "Roboto", sans-serif;
+}
+
+.text-3 {
+    width: 476px;
+    height: 27px;    
+    top: 444px;
+    left: 695px;
+    position: absolute;  
+}
+
+.str-3 {
+    font: 600 20px/28px "Roboto", sans-serif;    
+}
+
+.str-3::before {
+    content: url(../img/icon.png);
+}
+
+.text-4 {
+    width: 453px;
+    height: 27px;    
+    top: 484px;
+    left: 695px;
+    position: absolute;  
+}
+
+.button {
+    width: 211px;
+    height: 57.67px;
+    top: 549px;
+    left: 680px;
+    border-radius: 2px;    
+    position: absolute;
+}
+
+button {
+    background-color: #408858;
+    font: 500 20px/24px "Roboto", sans-serif;
+    color: #FFFFFF;   
+    padding: 17px 33.45px 17.6px 52px;
+    text-transform: uppercase;
+}
