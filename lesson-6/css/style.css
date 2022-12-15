@@ -16,8 +16,13 @@
     width: 1280px;
     height: 668px;
     background: #F2F8F6;
-}
+    display: inline-flex;
 
+}
+.left {
+    width: 50%;
+    margin-right: 40px;
+}
 .cube-1 {
     width: 446.67px;
     height: 437.32px;
@@ -47,61 +52,32 @@
     position: absolute;
 }
 
-.text-1 {
-    width: 411px;
-    height: 57px;    
-    top: 115px;
-    left: 680px;
-    position: absolute;    
+.right {
+    width: 50%;
+    margin: auto;
 }
 
 .str-1 {
    font: 500 50px/58.59px "Roboto", sans-serif; 
 }
 
-.text-2 {
-    width: 550px;
-    height: 230px;    
-    top: 191px;
-    left: 682px;
-    position: absolute;   
-}
-
 .str-2 {
     font: 400 20px/28px "Roboto", sans-serif;
+    margin: 20px 0;
 }
 
-.text-3 {
-    width: 476px;
-    height: 27px;    
-    top: 444px;
-    left: 695px;
-    position: absolute;  
+li {
+    font: 500 20px/28px "Roboto", sans-serif;
+    list-style-type: none; 
 }
 
-.str-3 {
-    font: 600 20px/28px "Roboto", sans-serif;    
-}
-
-.str-3::before {
+li::before {
     content: url(../img/icon.png);
 }
 
-.text-4 {
-    width: 453px;
-    height: 27px;    
-    top: 484px;
-    left: 695px;
-    position: absolute;  
-}
-
 .button {
-    width: 211px;
-    height: 57.67px;
-    top: 549px;
-    left: 680px;
-    border-radius: 2px;    
-    position: absolute;
+    border-radius: 2px;
+    margin-top: 42px;
 }
 
 button {
