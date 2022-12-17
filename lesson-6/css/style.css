@@ -17,8 +17,8 @@
     height: 668px;
     background: #F2F8F6;
     display: inline-flex;
-
 }
+
 .left {
     width: 50%;
     margin-right: 40px;
@@ -54,7 +54,10 @@
 
 .right {
     width: 50%;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .str-1 {
@@ -66,12 +69,12 @@
     margin: 20px 0;
 }
 
-li {
+.item {
     font: 500 20px/28px "Roboto", sans-serif;
     list-style-type: none; 
 }
 
-li::before {
+.item::before {
     content: url(../img/icon.png);
 }
 
