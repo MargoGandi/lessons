@@ -1,0 +1,130 @@
+/* style general
+----------------*/
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/gilroy-regular.ttf) format(truetype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font: 400 16px/1.2 "Gilroy", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service {
+    max-width: 980px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.types-of-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.catering-services {
+    width: 470px;
+    border-radius: 5px;
+    box-shadow: 0 0 25px #C7C7C7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.accounting {
+    width: 470px;
+    border-radius: 5px;
+    box-shadow: 0 0 25px #C7C7C7;
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.items h4 {
+    font: 600 22px/1.2 "Gilroy", sans-serif;
+    margin-bottom: 24px;
+}
+
+.items p {
+    font: 400 14px/1.2 "Gilroy", sans-serif;
+    text-align: center;
+    margin: 24px 30px;
+}
+
+.items button {
+    background-color: #E31E24;
+    border-radius: 5px;
+    font: 600 18px/19.8px "Gilroy", sans-serif;
+    color: #FFFFFF;   
+    padding: 17px 33.45px 17.6px 52px;
+    text-transform: uppercase;
+    margin: 44px 120px 40px;
+}
+
+.list {
+    max-width: 465px;
+    width: 100%;
+    display: flex;    
+}
+
+.str {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+
+.list-items:first-child {
+    margin-right: 60px;
+}
+
+.list-items:last-child {
+    margin-left: 60px;
+}
+
+.list-items a {
+    font: 600 18px/1 "Gilroy", sans-serif;
+    color: black;  
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px #C7C7C7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    background-color: #E31E24;
+    color: #FFFFFF;
+}
+
+a:focus {
+    background-color: #E31E24;
+    color: #FFFFFF;
+}
